@@ -8,7 +8,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/01-jpa-one-to-one-uni/pom.xml" />
+        <option value="$PROJECT_DIR$/../08-new-spring-boot-spring-mvc-security/02-bonus-code-spring-boot-spring-mvc-security-user-registration/pom.xml" />
+        <option value="$PROJECT_DIR$/02-jpa-one-to-one-bi/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../08-new-spring-boot-spring-mvc-security/02-bonus-code-spring-boot-spring-mvc-security-user-registration/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">

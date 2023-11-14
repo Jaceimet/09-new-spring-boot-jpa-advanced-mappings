@@ -7,12 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="01-jpa-one-to-one-uni" />
+        <module name="02-jpa-one-to-one-bi" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="02-bonus-code-spring-boot-spring-mvc-security-user-registration" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="01-jpa-one-to-one-uni" options="-parameters" />
+      <module name="02-bonus-code-spring-boot-spring-mvc-security-user-registration" options="-parameters" />
+      <module name="02-jpa-one-to-one-bi" options="-parameters" />
     </option>
   </component>
 </project>
