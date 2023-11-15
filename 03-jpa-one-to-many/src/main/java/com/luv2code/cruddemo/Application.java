@@ -26,8 +26,27 @@ public class Application {
 
 			//findInstructorDetail(appDAO);
 
-			deleteInstructorDetail(appDAO);
+			//deleteInstructorDetail(appDAO);
+			
+			createInstructorWithCourses(appDAO);
 		};
+	}
+
+	private void createInstructorWithCourses(AppDAO appDAO) {
+
+		// create the instructor
+		Instructor tempInstructor =
+				new Instructor("Susan", "Public", "susan.public@luv2code.com");
+
+		// create the instructor detail
+		InstructorDetail tempInstructorDetail =
+				new InstructorDetail(
+						"http://www.youtube.com",
+						"Video Games");
+
+		// associate the object
+		tempInstructor.setInstructorDetail(tempInstructorDetail);
+
 	}
 
 	private void deleteInstructorDetail(AppDAO appDAO) {
