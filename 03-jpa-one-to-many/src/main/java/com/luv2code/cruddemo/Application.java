@@ -1,6 +1,7 @@
 package com.luv2code.cruddemo;
 
 import com.luv2code.cruddemo.dao.AppDAO;
+import com.luv2code.cruddemo.entity.Course;
 import com.luv2code.cruddemo.entity.Instructor;
 import com.luv2code.cruddemo.entity.InstructorDetail;
 import org.springframework.boot.CommandLineRunner;
@@ -46,6 +47,22 @@ public class Application {
 
 		// associate the object
 		tempInstructor.setInstructorDetail(tempInstructorDetail);
+
+		// create courses
+		Course tempCourses1 = new Course("Air Guitar - The Ultimate Guide");
+		Course tempCourses2 = new Course("The Pinball Masterclass");
+
+		// add courses to instructor
+		tempInstructor.add(tempCourses1);
+		tempInstructor.add(tempCourses2);
+
+		// save instructor
+		//
+		// Note: this will ALSO save the courses due to CascadeTyp.PERSIST
+		//
+		System.out.println("Saving instructor: " + tempInstructor);
+		System.out.println("The courses: " + tempInstructor.getCourses());
+		appDAO.save(tempInstructor);
 
 	}
 
