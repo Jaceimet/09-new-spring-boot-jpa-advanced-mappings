@@ -41,9 +41,24 @@ public class Application {
 
 			//updateInstructor(appDAO);
 
-			updateCourse(appDAO);
+			//updateCourse(appDAO);
+
+			//deleteInstructor(appDAO);
+
+			deleteCourseById(appDAO);
 
 		};
+	}
+
+	private void deleteCourseById(AppDAO appDAO) {
+
+		int theId = 10;
+		System.out.println("Deleting course id: " + theId);
+
+		appDAO.deleteCourseById(theId);
+
+		System.out.println("Done!");
+
 	}
 
 	private void updateCourse(AppDAO appDAO) {
