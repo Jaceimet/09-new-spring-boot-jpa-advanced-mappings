@@ -45,12 +45,12 @@ public class Application {
 
 			//deleteInstructor(appDAO);
 
-			deleteCourseById(appDAO);
+			deleteCourse(appDAO);
 
 		};
 	}
 
-	private void deleteCourseById(AppDAO appDAO) {
+	private void deleteCourse(AppDAO appDAO) {
 
 		int theId = 10;
 		System.out.println("Deleting course id: " + theId);
