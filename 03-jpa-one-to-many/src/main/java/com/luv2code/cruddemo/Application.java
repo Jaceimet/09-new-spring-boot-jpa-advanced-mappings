@@ -21,31 +21,8 @@ public class Application {
 	public CommandLineRunner commandLineRunner(AppDAO appDAO){
 
 		return runner ->{
-			//createInstructor(appDAO);
 
-			//findInstructor(appDAO);
 
-			//deleteInstructor(appDAO);
-
-			//findInstructorDetail(appDAO);
-
-			//deleteInstructorDetail(appDAO);
-			
-			//createInstructorWithCourses(appDAO);
-
-			//findInstructorWithCourses(appDAO);
-
-			//findCoursesForInstructor(appDAO);
-
-			//findInstructorWithCoursesJoinFetch(appDAO);
-
-			//updateInstructor(appDAO);
-
-			//updateCourse(appDAO);
-
-			//deleteInstructor(appDAO);
-
-			deleteCourse(appDAO);
 
 		};
 	}
