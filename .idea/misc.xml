@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/../08-new-spring-boot-spring-mvc-security/02-bonus-code-spring-boot-spring-mvc-security-user-registration/pom.xml" />
         <option value="$PROJECT_DIR$/02-jpa-one-to-one-bi/pom.xml" />
         <option value="$PROJECT_DIR$/03-jpa-one-to-many/pom.xml" />
+        <option value="$PROJECT_DIR$/04-jpa-one-to-many-uni/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
