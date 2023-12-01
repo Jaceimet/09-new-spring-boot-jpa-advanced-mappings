@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="03-jpa-one-to-many" />
         <module name="02-jpa-one-to-one-bi" />
+        <module name="05-jpa-many-to-many" />
         <module name="01-jpa-one-to-one-uni" />
         <module name="04-jpa-one-to-many-uni" />
       </profile>
@@ -23,6 +24,7 @@
       <module name="02-jpa-one-to-one-bi" options="-parameters" />
       <module name="03-jpa-one-to-many" options="-parameters" />
       <module name="04-jpa-one-to-many-uni" options="-parameters" />
+      <module name="05-jpa-many-to-many" options="-parameters" />
     </option>
   </component>
 </project>
