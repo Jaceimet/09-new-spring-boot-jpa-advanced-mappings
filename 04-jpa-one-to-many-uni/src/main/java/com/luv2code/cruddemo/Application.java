@@ -25,9 +25,24 @@ public class Application {
 
 			//createCourseAndReview(appDAO);
 
-			retrieveCourseAndReviews(appDAO);
+			//retrieveCourseAndReviews(appDAO);
+
+			deleteCourseAndReviews(appDAO);
 
 		};
+	}
+
+	private void deleteCourseAndReviews(AppDAO appDAO) {
+
+		int theId = 10;
+
+		System.out.println("Deleting course id: " + theId);
+
+		appDAO.deleteCourseById(theId); // will delete course and reviews due to cascade type ALL
+
+		System.out.println("Done!");
+
+
 	}
 
 	private void retrieveCourseAndReviews(AppDAO appDAO) {
